@@ -1,3 +1,8 @@
+:root {
+    --sky-color: rgb(61, 192, 243);
+
+}
+
 body {
 
 }
@@ -5,4 +10,16 @@ body {
 header {
     text-align: center;
     font-size: 60px;
+    background-image: linear-gradient(var(--sky-color), white);
+    font-weight: 600;
+}
+
+.searchBar {
+    
+}
+
+#searchBtn {
+    border-color: black;
+    background-color: black;
+    color: white;
 }
