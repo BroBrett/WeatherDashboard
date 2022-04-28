@@ -13,13 +13,37 @@
         Weather Dashboard
     </header>
     
-<div class="row">
+  <div class="row">
     <div class="searchBar col-2">
         <h3>Search for a location:</h3>
         <input type="text" class="search" name="searchLocation" placeholder="Enter city here">
         <button type="submit" id="searchBtn" class="btn search-btn">Search</button>
     </div>
-</div>
+  </div>
 
+  <div class="col-10">
+      <div id="weatherDisplay" class="row">
+          <div id="cityAndDate">
+              <div id="CurentCity"></div>
+              <span id="currentDate"></span>
+          </div>
+      </div>
+
+      <div class="currentWeather">
+          <div id="temp" class="item1">
+              <div>Temp: <span id="currentTemp"></span></div>
+          </div>
+
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+<script src="./script.js"></script>
 </body>
 </html>
