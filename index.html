@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <div class="col-10">
+  <div class="row col-10" id="mainWeather">
       <div id="weatherDisplay" class="row">
           <div id="cityAndDate">
               <div id="CurentCity"></div>
@@ -29,11 +29,80 @@
           </div>
       </div>
 
-      <div class="currentWeather">
-          <div id="temp" class="item1">
-              <div>Temp: <span id="currentTemp"></span></div>
-          </div>
+      <ul>
+          <li id="currentTemp" class="item1">
+              Temp:
+          </li>
 
+          <li id="currentWind" class="item2">
+              Wind:
+          </li>
+
+          <li id="currentHumidity" class="item3">
+              Humidity:
+          </li>
+
+          <li id="currentUvIndex" class="item4">
+              UV Index:
+          </li>
+      </ul>
+  </div>
+
+  <div class="row justify-content-center" id="fiveDayForecast">
+      <h4>5-Day Forecast</h4>
+      <div class="card" style="width: 15rem;">
+        <div class="card-body"></div>
+        <h4 id="cardDateOne"></h4>
+        <ul>
+            <li id="cardTempOne"></li>
+            <li id="cardWindOne"></li>
+            <li id="cardHumidityOne"></li>
+            <li id="cardUvOne"></li>
+        </ul>
+      </div>
+
+      <div class="card" style="width: 15rem;">
+        <div class="card-body"></div>
+        <h4 id="cardDateTwo"></h4>
+        <ul>
+            <li id="cardTempTwo"></li>
+            <li id="cardWindTwo"></li>
+            <li id="cardHumidityTwo"></li>
+            <li id="cardUvTwo"></li>
+        </ul>
+      </div>
+
+      <div class="card" style="width: 15rem;">
+        <div class="card-body"></div>
+        <h4 id="cardDateThree"></h4>
+        <ul>
+            <li id="cardTempThree"></li>
+            <li id="cardWindThree"></li>
+            <li id="cardHumidityThree"></li>
+            <li id="cardUvThree"></li>
+        </ul>
+      </div>
+
+      <div class="card" style="width: 15rem;">
+        <div class="card-body"></div>
+        <h4 id="cardDateFour"></h4>
+        <ul>
+            <li id="cardTempFour"></li>
+            <li id="cardWindFour"></li>
+            <li id="cardHumidityFour"></li>
+            <li id="cardUvFour"></li>
+        </ul>
+      </div>
+
+      <div class="card" style="width: 15rem;">
+        <div class="card-body"></div>
+        <h4 id="cardDateFive"></h4>
+        <ul>
+            <li id="cardTempFive"></li>
+            <li id="cardWindFive"></li>
+            <li id="cardHumidityFive"></li>
+            <li id="cardUvFive"></li>
+        </ul>
       </div>
   </div>
 

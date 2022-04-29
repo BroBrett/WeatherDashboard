@@ -23,3 +23,12 @@ header {
     background-color: black;
     color: white;
 }
+
+#mainWeather {
+    text-align: center;
+}
+
+#fiveDayForecast {
+    text-align: center;
+}
+
