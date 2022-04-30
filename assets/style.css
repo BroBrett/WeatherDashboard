@@ -10,7 +10,7 @@ body {
 header {
     text-align: center;
     font-size: 60px;
-    background-image: linear-gradient(var(--sky-color), white);
+    background-color: white;
     font-weight: 600;
 }
 
@@ -30,5 +30,9 @@ header {
 
 #fiveDayForecast {
     text-align: center;
+}
+
+.card-body {
+    
 }
 
