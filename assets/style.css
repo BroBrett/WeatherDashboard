@@ -22,6 +22,20 @@ header {
     border-color: black;
     background-color: black;
     color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#searchBtn:hover {
+    animation: pulsate 1.5s ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 0 0 25px #000, 0 0 25px rgb(61, 192, 243);
+    }
 }
 
 #mainWeather {
@@ -33,6 +47,6 @@ header {
 }
 
 .card-body {
-    
+   
 }
 
